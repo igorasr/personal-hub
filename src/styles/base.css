@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+  /* Base light (off-white + azul marinho) */
+  --vt-c-white: #fdfdf7;                    /* Off-white quase branco */
+  --vt-c-white-soft: #f5f6f7;               /* Suave */
+  --vt-c-white-mute: #eceef1;               /* Levemente mais escuro */
+
+  --vt-c-black: #1c1c1c;                    /* Escuro profundo */
+  --vt-c-black-soft: #242424;
+  --vt-c-black-mute: #2c2c2c;
+
+  --vt-c-indigo: #1e2a38;                   /* Azul marinho escuro */
+
+  --vt-c-divider-light-1: rgba(30, 42, 56, 0.2);   /* Azul marinho leve */
+  --vt-c-divider-light-2: rgba(30, 42, 56, 0.08);
+  --vt-c-divider-dark-1: rgba(255, 255, 255, 0.16);
+  --vt-c-divider-dark-2: rgba(255, 255, 255, 0.08);
+
+  --vt-c-text-light-1: #1e2a38;             /* Azul marinho escuro */
+  --vt-c-text-light-2: rgba(30, 42, 56, 0.66);
+  --vt-c-text-dark-1: #f1f1f1;              /* Texto claro */
+  --vt-c-text-dark-2: rgba(220, 220, 220, 0.64);
+}
+
+/* Semantic mappings */
+:root {
+  --color-background: #fdfdf7;
+  --color-background-soft: #f5f6f7;
+  --color-background-mute: #eceef1;
+
+  --color-border: rgba(30, 42, 56, 0.08);
+  --color-border-hover: rgba(30, 42, 56, 0.2);
+
+  --color-heading: #222f3d;
+  --color-text: rgba(32, 46, 63, 0.644);
+
+  --section-gap: 160px;
+}
+
+.dark {
+  --color-background: rgb(24 24 27);
+  --color-background-soft: #242424;
+  --color-background-mute: #2c2c2c;
+
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-hover: rgba(255, 255, 255, 0.16);
+
+  --color-heading: #dbd9d9;
+  --color-text: rgba(220, 220, 220, 0.671);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Karla,
+    sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
