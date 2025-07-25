@@ -14,21 +14,21 @@ const { theme, toggleTheme } = useTheme();
       <div v-if="route.path === '/'">
         <div class="flex flex-col max-sm:items-center">
           <p class="color-heading">Igor Augusto</p>
-          <span class="color-sub-heading"> Software Engineer </span>
+          <span class="text-sub-heading"> Software Engineer </span>
         </div>
       </div>
 
       <RouterLink
         v-else
         to="/"
-        class="group relative flex items-center transition-all max-sm:text-center "
+        class="group relative flex items-center transition-all max-sm:text-center"
       >
         <div class="absolute -left-10 flex size-4 w-12 items-center px-2">
-          <ChevronLeft class="text-sky-500"/>
+          <ChevronLeft class="group-hover:text-sky-500 transition-all"/>
         </div>
         <div class="flex flex-col max-sm:items-center">
-          <p class="color-heading">Igor Augusto</p>
-          <span class="color-sub-heading"> Software Engineer </span>
+          <p class="text-heading group-hover:text-sky-500 transition-all">Igor Augusto</p>
+          <span class="text-sub-heading group-hover:text-sky-500 transition-all"> Software Engineer </span>
         </div>
       </RouterLink>
 
