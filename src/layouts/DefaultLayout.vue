@@ -3,6 +3,7 @@
     <HeaderComponent />
     <main class="flex-1 flex flex-col gap-8">
       <slot />
+      <ScrollToTopComponent />
     </main>
     <FooterComponent />
   </div>
@@ -11,6 +12,7 @@
 <script setup>
 import FooterComponent from '@/components/FooterComponent.vue';
 import HeaderComponent from '@/components/HeaderComponent.vue';
+import ScrollToTopComponent from '@/components/ScrollToTopComponent.vue';
 
 </script>
 
