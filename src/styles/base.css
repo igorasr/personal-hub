@@ -25,15 +25,16 @@
 
 /* Semantic mappings */
 :root {
-  --color-background: #fdfdf7;
+  --color-background: #fcf9f4;
   --color-background-soft: #f5f6f7;
   --color-background-mute: #eceef1;
 
   --color-border: rgba(30, 42, 56, 0.08);
   --color-border-hover: rgba(30, 42, 56, 0.2);
 
-  --color-heading: #222f3d;
-  --color-text: rgba(32, 46, 63, 0.644);
+  --color-heading: #0D1B2A;
+  --color-sub-heading: #1b263bb4;
+  --color-text: #023047;
 
   --section-gap: 160px;
 }
@@ -47,6 +48,7 @@
   --color-border-hover: rgba(255, 255, 255, 0.16);
 
   --color-heading: #dbd9d9;
+  --color-sub-heading: #dbd9d9a6;
   --color-text: rgba(220, 220, 220, 0.671);
 }
 
@@ -73,4 +75,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--color-heading);
 }
