@@ -2,9 +2,9 @@
   <button
     v-if="isVisible"
     @click="scrollToTop"
-    class="cursor-pointer fixed z-10 flex items-center gap-2 rounded bg-zinc-50 py-2 pl-4 pr-3 ring-1 ring-zinc-400 transition-all sm:hover:bg-zinc-100 max-sm:bottom-8 max-sm:right-8 sm:right-8 sm:top-8 dark:bg-zinc-900 dark:ring-zinc-500 sm:hover:dark:bg-zinc-800"
+    class="cursor-pointer fixed z-10 flex items-center gap-2 rounded p-3 bg-zinc-50 ring-1 ring-zinc-400 transition-all sm:hover:bg-zinc-100 max-sm:bottom-8 max-sm:right-8 sm:right-8 sm:top-8 dark:bg-zinc-900 dark:ring-zinc-500 sm:hover:dark:bg-zinc-800"
   >
-    Back to top
+    <p class="max-sm:hidden">Back to top</p>
     <ArrowUp class="size-4 text-sky-500" />
   </button>
 </template>

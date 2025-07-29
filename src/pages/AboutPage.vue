@@ -84,7 +84,7 @@
       <section class="text-center py-6">
         <h2 class="text-xl py-2">Wanna Talk?</h2>
         <p>If you want to chat about technology, just reach out!</p>
-        <div class="flex justify-center items-center gap-4">
+        <div class="flex justify-center items-center gap-4 max-sm:flex-col max-sm:gap-0">
           <a
             href="mailto:igorausgostosouza00@gmail.com"
             class="flex items-center gap-2 text-blue-400 hover:underline"
@@ -92,7 +92,7 @@
             <Mail class="size-4"/>
             igoraugustosouza00@gmail.com
           </a>
-          <span>|</span>
+          <span class="max-sm:rotate-90">|</span>
           <a
             href="https://www.linkedin.com/in/igorasr"
             target="_blank"
