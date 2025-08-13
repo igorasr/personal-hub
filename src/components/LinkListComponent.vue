@@ -12,7 +12,7 @@
       <span class="flex items-center gap-4">
         <div v-html="link.icon"></div> {{ link.name }}
         <span
-          class="-translate-x-4 text-base opacity-0 transition-all max-sm:hidden group-hover:translate-x-0 group-hover:opacity-100 "
+          class="-translate-x-4 text-sub-heading opacity-0 transition-all max-sm:hidden group-hover:translate-x-0 group-hover:opacity-100 "
         >
           {{ link.description }}
         </span>
