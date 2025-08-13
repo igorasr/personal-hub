@@ -7,6 +7,6 @@ export default [
       "Laravel",
       "OAuth 2.0"
     ],
-    image:"src/assets/integration_shopee.png"
+    image:"/integration_shopee.png"
   }
 ]
